@@ -5,7 +5,7 @@ number = random.randint(1, 25)
 attempts = 0
 start_time = time.time()
 max_attempts = 10
-
+# Función para validar la entrada del usuario
 def get_valid_input(prompt):
     while True:
         try:
