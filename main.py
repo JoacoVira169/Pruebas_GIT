@@ -18,7 +18,7 @@ def get_valid_input(prompt):
             print("Invalid input. Please enter a valid integer.")
 
 choice = get_valid_input('Guess a number between 1 and 25: ')
-
+#Inicio del bucle
 while choice != number and attempts < max_attempts:
     attempts += 1
     if choice < number:
